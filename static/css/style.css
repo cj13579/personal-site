@@ -6909,7 +6909,7 @@ body.landing-page {
   padding-top: 80px;
   padding-bottom: 90px;
   background-color: #3385FF;
-  background-image: url('../img/landing/avatar_all.png');
+  /*background-image: url('../img/landing/avatar_all.png');*/
 }
 .landing-page .big-icon {
   font-size: 56px !important;
@@ -6918,7 +6918,7 @@ body.landing-page {
   color: #3385FF !important;
 }
 .landing-page .contact {
-  background-image: url('../img/landing/word_map.png');
+  /*background-image: url('../img/landing/word_map.png');*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-top: 60px;
