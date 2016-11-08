@@ -1,53 +1,82 @@
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Nova
+    i18n: nova
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    detail: I do stuff.
+    i18n: nova_des
   date:
-    detail: Apr. 2016
-    i18n: nextcode_date
+    detail: May. 2016
+    i18n: nova_date
   job:
-    detail: Python Developer
-    i18n: nextcode_job
-  icon: fa-plus-square
+    detail: Senior Business Intelligence Architect
+    i18n: nova_job
+  icon: fa-bar-chart
 
 - name:
-    detail: Netease Game
-    i18n: netease
+    detail: Royal Bank of Scotland
+    i18n: rbs
   desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
+    detail: Delivering engineering services to RBS business and technology functions for strategic Business Intelligence and Analytics platforms.
+    i18n: rbs_des
   date:
-    detail: Jun. 2015
-    i18n: nextcode_date
+    detail: Jan. 2014
+    i18n: rbs_date
   job:
-    detail: Dev Ops
-    i18n: netease_job
-  icon: fa-gamepad
+    detail: Analytics Platforms Engineering Lead
+    i18n: rbs_job
+  icon: fa-gbp
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: SAS Software Ltd.
+    i18n: sas
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    detail: Leading the deployment and configuration of complex multi-tiered SAS environments across numerous platforms. Developing and driving project plans from conception through execution and being the point of contact between SAS Technical Support and customers.
+    i18n: sas_des
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
+    detail: Oct. 2012
+    i18n: sas_date
   job:
-    detail: Dev Ops
-    i18n: ucloud_job
-  icon: fa-cloud
+    detail: Senior Consultant
+    i18n: sas_job
+  icon: fa-line-chart
 
 - name:
-    detail: Graduation
+    detail: SAS Software Ltd.
+    i18n: sas
+  desc:
+    detail: Deployment and configuration of complex multi-tiered SAS environments across numerous platforms including the configuration of third-party technologies including Platform LSF, WebSphere, JBoss, Teradata and other database technologies. 
+    i18n: sas_des
+  date:
+    detail: Nov. 2010
+    i18n: sas_date
+  job:
+    detail: Consultant
+    i18n: sas_job
+  icon: fa-line-chart
+
+- name:
+    detail: Allday Time Systems
+    i18n: adt
+  desc:
+    detail: Providing level 1 and level 2 support for complex multi-site Time and Attendance systems.
+    i18n: adt_des
+  date:
+    detail: Jul. 2010
+    i18n: adt_date
+  job:
+    detail: IT Support Engineer
+    i18n: adt_job
+  icon: fa-clock-o
+
+
+- name:
+    detail: Unviersity of the West of England
     i18n: college
   desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
+    detail: Graduated with a 2:1 in Business Information Systems
     i18n: college_des
   date:
-    detail: Jul. 2013
+    detail: Jun. 2009
     i18n: college_date
   job:
     detail: Student
