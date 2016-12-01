@@ -9,3 +9,9 @@
   url: '/cj13579/mediamonkey'
   img: 'static/img/landing/tvmonkey.png'
   desc: "The forerunner to MediaMonkey."
+
+- name: 'open-whois'
+  i18n: 'open-whois'
+  url: '/cj13579/open-whois'
+  img: 'static/img/landing/git.png'
+  desc: "An open and extensible python whois client that is intended to be a drop-in upgrade to the Sysinternals whois client."
