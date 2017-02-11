@@ -1,5 +1,6 @@
 ---
 id: 384
+comments: true
 title: Raspbmc clock problem
 date: 2012-07-13T17:51:27+00:00
 author: Chris

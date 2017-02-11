@@ -1,5 +1,6 @@
 ---
 id: 243
+comments: true
 title: TVMonkey 0.3 is here!
 date: 2012-03-16T23:27:00+00:00
 author: Chris

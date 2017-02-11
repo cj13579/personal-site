@@ -1,5 +1,6 @@
 ---
 id: 536
+comments: true
 title: Native NTFS writes on Mac OS X
 date: 2015-01-25T15:56:38+00:00
 author: Chris

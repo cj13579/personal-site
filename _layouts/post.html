@@ -28,17 +28,17 @@ layout: default
                                 {% endfor %}
                         </div>
                         <div class="col-md-6">
-                            <div class="small text-right">
+                            <!--<div class="small text-right">
                                 <h5>Stats:</h5>
                                 <div> 
-                                {% if site.changyan %}
+                                {% if comments %}
                                     <i class="fa fa-comments-o"> </i> <span id = "url::{{post.url | prepend: page.url}}" class = "cy_cmt_count" ></span> comments
                                 {% endif %}
                                 {% if site.disqus %}
                                 <i class="fa fa-comments-o"> </i> <span class='disqus-comment-count' data-disqus-url="{{ site.url }}{{ page.url }}">0</span> comments
                                 {% endif %}
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <br>
@@ -55,7 +55,7 @@ layout: default
                             {% endif %}
                             <br>
                             <!-- comment -->
-                            {% include comments.html %}
+                            {% include disqus.html %}
                         </div>
                     </div>
 

@@ -1,5 +1,6 @@
 ---
 id: 153
+comments: true
 title: 'How open are you? &#8211; Take 2'
 date: 2011-10-23T18:09:40+00:00
 author: Chris

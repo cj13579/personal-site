@@ -1,5 +1,6 @@
 ---
 id: 146
+comments: true
 title: Corrupted XBMC Database on AppleTV
 date: 2011-10-05T10:25:40+00:00
 author: Chris

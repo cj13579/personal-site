@@ -12,6 +12,7 @@ tags:
   - How-To
   - Software
   - Ubuntu
+comments: true
 ---
 Up until quite recently (I think) installing the Eclipse SDK has been something of a burden for people. When I first tried to have a stab at writing some “Apps” for my recently purchased HTC Desire I almost stumbled at the first hurdle. I had real trouble installing what was supposed to be the “simplest and fastest” way into Android development.
 

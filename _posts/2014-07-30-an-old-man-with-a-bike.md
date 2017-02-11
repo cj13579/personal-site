@@ -1,5 +1,6 @@
 ---
 id: 504
+comments: true
 title: An old man with a bike
 date: 2014-07-30T22:38:11+00:00
 author: Chris

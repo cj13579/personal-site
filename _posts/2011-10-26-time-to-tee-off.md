@@ -1,5 +1,6 @@
 ---
 id: 162
+comments: true
 title: Time to tee off
 date: 2011-10-26T11:47:52+00:00
 author: Chris

@@ -1,5 +1,6 @@
 ---
 id: 507
+comments: true
 title: Changing IP Octets with Bash
 date: 2014-08-12T15:30:48+00:00
 author: Chris

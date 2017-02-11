@@ -12,6 +12,7 @@ tags:
   - Richard M Stallman
   - Software
   - Ubuntu
+comments: true
 ---
 So, I was browsing about the net today and stumbled upon this blog <a title="Ed Robinson" href="http://www.earobinson.org/2009/09/12/vrms-16-non-free-packages-0-9-of-1712-installed-packages/" target="_self">post</a>. A neat little trick I thought, I wonder how well I will score? It appears that I am 99.6% open! In my opinion, I think that makes me pretty open!
   

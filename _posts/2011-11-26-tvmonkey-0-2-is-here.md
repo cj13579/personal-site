@@ -1,5 +1,6 @@
 ---
 id: 214
+comments: true
 title: TVMonkey 0.2 is here!
 date: 2011-11-26T14:38:14+00:00
 author: Chris

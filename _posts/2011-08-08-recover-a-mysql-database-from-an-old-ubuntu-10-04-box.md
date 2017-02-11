@@ -1,5 +1,6 @@
 ---
 id: 137
+comments: true
 title: Recover a MySQL database from an old Ubuntu 10.04 box
 date: 2011-08-08T19:54:28+00:00
 author: Chris

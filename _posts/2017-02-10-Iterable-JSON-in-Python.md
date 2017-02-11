@@ -1,5 +1,6 @@
 ---
 title: Iterable JSON in Python
+comments: true
 date: 2016-11-17
 author: Chris
 layout: post

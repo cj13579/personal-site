@@ -6,6 +6,7 @@ author: Chris
 layout: post
 guid: http://104.196.105.206/site/?p=1
 permalink: /2010/09/11/hello-world-2/
+comments: true
 ---
 Welcome to the revamped <a title="the new look site" href="http://cj13579.homelinux.org" target="_self">cj13579.homelinux.org</a>! I think that you will agree with me that it is much better than the <a title="The old site" href="http://cj13579.dyndns-server.com/old" target="_self">old</a> one. I have decided that I will put some effort into this one and  (but don&#8217;t hold me to this) regularly update it.
 

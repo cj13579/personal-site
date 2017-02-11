@@ -1,5 +1,6 @@
 ---
 id: 401
+comments: true
 title: Extract all machines associated with a SAS environment
 date: 2012-11-09T13:49:46+00:00
 author: Chris

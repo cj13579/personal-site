@@ -1,5 +1,6 @@
 ---
 id: 475
+comments: true
 title: Clustering for SAS 101
 date: 2013-04-28T12:10:44+00:00
 author: Chris

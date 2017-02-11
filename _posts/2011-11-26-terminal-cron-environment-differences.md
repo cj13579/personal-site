@@ -1,5 +1,6 @@
 ---
 id: 196
+comments: true
 title: Terminal / Cron Environment differences
 date: 2011-11-26T00:33:49+00:00
 author: Chris

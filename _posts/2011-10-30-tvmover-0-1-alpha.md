@@ -1,5 +1,6 @@
 ---
 id: 168
+comments: true
 title: 'TVMover 0.1 &#8211; (Alpha)'
 date: 2011-10-30T13:08:46+00:00
 author: Chris

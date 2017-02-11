@@ -10,6 +10,7 @@ tags:
   - Facebook
   - Fun
   - Hacks
+comments: true 
 ---
 So, what a better way to start this newly revamped site but with some good for nothing hacks that may keep you occupied for a little while. Having taken the idea from <a title="The post where I found the hacks" href="http://www.puremango.co.uk/2009/05/hacking-facebook/" target="_blank">here</a> I decided to play with the colour ones. I have updated them and added some of my own.
 

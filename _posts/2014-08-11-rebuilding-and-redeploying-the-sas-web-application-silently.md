@@ -1,5 +1,6 @@
 ---
 id: 517
+comments: true
 title: Rebuilding and redeploying the SAS Web Applications Silently
 date: 2014-08-11T08:16:38+00:00
 author: Chris

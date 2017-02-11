@@ -1,5 +1,6 @@
 ---
 id: 87
+comments: true
 title: Explode and Implode strings with PHP
 date: 2010-09-29T18:00:23+00:00
 author: Chris

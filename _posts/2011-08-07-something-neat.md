@@ -1,5 +1,6 @@
 ---
 id: 124
+comments: true
 title: Something neat
 date: 2011-08-07T18:56:41+00:00
 author: Chris

@@ -1,5 +1,6 @@
 ---
 id: 374
+comments: true
 title: TVMonkey 0.4.1 is here!
 date: 2012-07-11T17:16:55+00:00
 author: Chris

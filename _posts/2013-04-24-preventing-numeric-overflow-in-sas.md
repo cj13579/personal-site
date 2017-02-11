@@ -1,5 +1,6 @@
 ---
 id: 432
+comments: true
 title: Preventing numeric overflow in SAS
 date: 2013-04-24T22:52:33+00:00
 author: Chris

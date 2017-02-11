@@ -1,5 +1,6 @@
 ---
 id: 361
+comments: true
 title: 'Linux random number generation: /dev/random vs /dev/urandom'
 date: 2012-04-28T16:39:01+00:00
 author: Chris

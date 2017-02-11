@@ -1,5 +1,6 @@
 ---
 id: 232
+comments: true
 title: Hiding and preventing :2eDS_Store files on Linux
 date: 2012-01-19T22:31:23+00:00
 author: Chris

@@ -1,5 +1,6 @@
 ---
 id: 109
+comments: true
 title: Daemonised Transmission! on Ubuntu Server 10.04
 date: 2010-10-13T21:14:23+00:00
 author: Chris

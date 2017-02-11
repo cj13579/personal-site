@@ -8,6 +8,7 @@ tags:
   - mac
   - OSX
   - NTFS
+comments: true
 ---
 I have [previously written](http://cjblake.net/2015/01/25/native-ntfs-writes-on-mac-os-x/) about enabling write access to NTFS devices on Mac OS but the methods used within that post have been made redundant due to some changes in the latest version of Mac OS.
 

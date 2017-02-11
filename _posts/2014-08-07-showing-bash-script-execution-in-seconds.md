@@ -1,5 +1,6 @@
 ---
 id: 511
+comments: true
 title: Showing Bash script execution time in seconds
 date: 2014-08-07T10:58:36+00:00
 author: Chris

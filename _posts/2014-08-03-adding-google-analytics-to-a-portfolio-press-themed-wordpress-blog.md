@@ -1,5 +1,6 @@
 ---
 id: 508
+comments: true
 title: Adding Google Analytics to a Portfolio Press Themed WordPress blog
 date: 2014-08-03T09:18:31+00:00
 author: Chris

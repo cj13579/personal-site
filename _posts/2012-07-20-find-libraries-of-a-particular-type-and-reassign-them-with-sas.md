@@ -1,5 +1,6 @@
 ---
 id: 387
+comments: true
 title: Find libraries of a particular type and reassign them to improve job performance
 date: 2012-07-20T16:12:50+00:00
 author: Chris

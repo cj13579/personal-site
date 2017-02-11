@@ -1,5 +1,6 @@
 ---
 id: 544
+comments: true
 title: Add some geek to your music
 date: 2015-08-09T22:05:17+00:00
 author: Chris
