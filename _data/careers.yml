@@ -1,8 +1,21 @@
 - name:
+    detail: Boemska
+    i18n: boemska
+  desc:
+    detail: Responsible for guiding the go-to-market and product strategy for Boemska.
+    i18n: boemska_des
+  date:
+    detail: November. 2019
+    i18n: boemska_date
+  job:
+    detail: Director of Product Strategy
+    i18n: boemska_job
+  icon: fa-lightbulb-o
+- name:
     detail: Nova
     i18n: nova
   desc:
-    detail: I do stuff.
+    detail: Designing and implementing analytics and reporting solutions for Bermuda based financial services organisations.
     i18n: nova_des
   date:
     detail: May. 2016
