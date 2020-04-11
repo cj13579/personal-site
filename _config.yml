@@ -3,7 +3,7 @@
 # Website settings
 title: "Christopher Blake"
 description: "Chris Blake's personal site."
-keywords: "christopher,blake,SAS,consultant,adminsitrator"
+keywords: "christopher,blake,chris blake,christopher blake,SAS,consultant,adminsitrator,product,global,forum,2022"
 baseurl: "/"
 # url: "https://cjblake.net"
 # url: "http://127.0.0.1:4000"
@@ -50,9 +50,6 @@ sections:
     name: 'Links'
     tpl: 'links.html'
     css: 'contact'
-
-# blog img path
-# img_path: 'http://www.jack003.com/static/img/blog'
 
 # google analytics
 ga:
