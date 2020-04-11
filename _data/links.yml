@@ -1,8 +1,8 @@
-- last_name: Nova
-  first_name: Limited
-  desc: 'Nova is a Bermuda based, Microsoft Partner-certified, software engineering and consulting company located in Hamilton, Bermuda.'
-  website: 'http://www.nova.bm'
-  email: 'info@nova.bm'
+- last_name: Boemska
+  first_name: 
+  desc: Boemska is a SAS Global Technology Partner specializing in analytic workload management and Data Science applications for the SAS Platfrom.
+  website: 'https://boemskats.com'
+  email: chris@boemskats.com
 
 # - last_name: Lucas
 #   first_name: Schejtman
