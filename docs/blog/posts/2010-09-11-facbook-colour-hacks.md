@@ -10,11 +10,11 @@ tags:
   - Fun
   - Hacks
 ---
-So, what a better way to start this newly revamped site but with some good for nothing hacks that may keep you occupied for a little while. Having taken the idea from <a title="The post where I found the hacks" href="http://www.puremango.co.uk/2009/05/hacking-facebook/" target="_blank">here</a> I decided to play with the colour ones. I have updated them and added some of my own.
+So, what a better way to start this newly revamped site but with some good for nothing hacks that may keep you occupied for a little while. Having taken the idea from <a title="The post where I found the hacks" href="http://www.puremango.co.uk/2009/05/hacking-facebook/" target="_blank">here</a> I decided to play with the colour ones. I have updated them and added some of my own.<!-- more -->
 
-Since the original post was published, Facebook have changed their layout significantly. Although the colour hack in the original post still works, due to these layout changes it doesn&#8217;t work nearly as effectively. In addition to this, I have discovered some more, meaning if you want to, you can turn the whole page another colour!!
+Since the original post was published, Facebook have changed their layout significantly. Although the colour hack in the original post still works, due to these layout changes it doesn't work nearly as effectively. In addition to this, I have discovered some more, meaning if you want to, you can turn the whole page another colour!!
 
-So, what do you need to do? This is really simple, all you need to do is copy and paste the following code snippets into your browser&#8217;s address bar (e.g. where it says http://www.facebo&#8230;..) over the top of where the Facebook URL is.
+So, what do you need to do? This is really simple, all you need to do is copy and paste the following code snippets into your browser's address bar (e.g. where it says http://www.facebo&#8230;..) over the top of where the Facebook URL is.
 
 To make the area around the search bar a different colour simply use:
 
