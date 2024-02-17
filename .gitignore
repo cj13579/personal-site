@@ -1,5 +1,5 @@
-_site
-.sass-cache
-.jekyll-metadata
-*.lock
-*.log
+env/
+old/
+.vscode/
+site/
+.cache
