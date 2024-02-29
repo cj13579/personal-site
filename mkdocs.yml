@@ -54,6 +54,10 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - neoteroi.timeline
 
 extra_javascript:
   - javascripts/sql2pgrest.js
+
+extra_css:
+  - stylesheets/neoteroi-timeline.css
