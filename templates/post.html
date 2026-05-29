@@ -13,6 +13,19 @@
             width: 100%;
             text-align: center;
         }
+        .post-navigation {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .post-navigation a {
+            max-width: 45%;
+        }
+        .post-navigation .next {
+            margin-left: auto;
+            text-align: right;
+        }
     </style>
     <script defer src="https://umami.cjblake.net/script.js" data-website-id="fa958aa1-6a54-4263-a536-a6f44d86a6e6"></script>
   </head>
@@ -24,17 +37,30 @@
         <a href="/blog.html">Blog</a>
     </div>
     <div>
-        <div>
+        <div align="center">
             <h1>$title$</h1>
             <p>
-                Posted on <b>$date$</b> by <b>$author$</b>
+                Posted on <b>$post-date$</b> by <b>$author$</b>
             </p>
         </div>
         $body$
+        $if(previous-post-url)$
+        <hr />
+        <nav class="post-navigation" aria-label="Post navigation">
+            <a class="previous" rel="prev" href="$previous-post-url$">Previous: $previous-post-title$</a>
+            $if(next-post-url)$
+            <a class="next" rel="next" href="$next-post-url$">Next: $next-post-title$</a>
+            $endif$
+        </nav>
+        $elseif(next-post-url)$
+        <hr />
+        <nav class="post-navigation" aria-label="Post navigation">
+            <a class="next" rel="next" href="$next-post-url$">Next: $next-post-title$</a>
+        </nav>
+        $endif$
     </div>
     <div>
         <footer class="footer">
-            <hr />
             &copy; 2026 Christopher Blake.
         </footer>
     </div>

@@ -6,6 +6,7 @@ import shutil
 import subprocess
 import sys
 from datetime import datetime
+from html import escape, unescape
 from pathlib import Path
 
 
@@ -38,6 +39,10 @@ def parse_front_matter(markdown_file: Path) -> dict[str, str]:
     return metadata
 
 
+def template_text(value: str) -> str:
+    return escape(unescape(value), quote=False)
+
+
 def render_main_markdown(markdown_file: Path) -> None:
     print(f"mdfile: {markdown_file.as_posix()}")
     htmlfile = markdown_file.with_suffix(".html").name
@@ -68,7 +73,9 @@ def render_blog() -> None:
             parsed_date = datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
         posts.append((parsed_date, post_file, metadata))
 
-    for _, post_file, metadata in sorted(posts, key=lambda post: post[0], reverse=True):
+    sorted_posts = sorted(posts, key=lambda post: post[0], reverse=True)
+
+    for index, (_, post_file, metadata) in enumerate(sorted_posts):
         print(f"mdfile: {post_file.as_posix()}")
         htmlfile = Path("blog") / f"{post_file.stem}.html"
         print(f"htmlfile: {htmlfile}")
@@ -77,17 +84,44 @@ def render_blog() -> None:
         date = metadata.get("date", "")
         display_date = date.split(" ", 1)[0] if date else ""
 
-        run_command(
-            [
-                "pandoc",
-                "--standalone",
-                "--template",
-                str(TEMPLATES_DIR / "post.html"),
-                str(post_file),
-                "-o",
-                str(HTML_DIR / htmlfile),
-            ]
-        )
+        command = [
+            "pandoc",
+            "--standalone",
+            "--template",
+            str(TEMPLATES_DIR / "post.html"),
+            "--variable",
+            f"post-date={display_date}",
+            str(post_file),
+            "-o",
+            str(HTML_DIR / htmlfile),
+        ]
+
+        older_post = sorted_posts[index + 1] if index + 1 < len(sorted_posts) else None
+        newer_post = sorted_posts[index - 1] if index > 0 else None
+
+        if older_post:
+            _, older_file, older_metadata = older_post
+            command.extend(
+                [
+                    "--variable",
+                    f"previous-post-url=/blog/{older_file.stem}.html",
+                    "--variable",
+                    f"previous-post-title={template_text(older_metadata.get('title', ''))}",
+                ]
+            )
+
+        if newer_post:
+            _, newer_file, newer_metadata = newer_post
+            command.extend(
+                [
+                    "--variable",
+                    f"next-post-url=/blog/{newer_file.stem}.html",
+                    "--variable",
+                    f"next-post-title={template_text(newer_metadata.get('title', ''))}",
+                ]
+            )
+
+        run_command(command)
 
         with TMP_BLOG.open("a", encoding="utf-8") as handle:
             handle.write(f"- [{display_date} - {title}]({htmlfile})\n")
