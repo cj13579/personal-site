@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.site-content {
+    flex: 1;
+    min-width: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.site-content img,
+.site-content video {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-content figure {
+    max-width: 100%;
+}
+
+/* Keep code formatting intact while confining horizontal scrolling to the block. */
+.site-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-wrap: normal;
+}
+
+.navbar .nav-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.post-navigation a {
+    max-width: 45%;
+    padding-block: 0.75rem;
+}
+
+.post-navigation .next {
+    margin-left: auto;
+    text-align: right;
+}
+
+@media (max-width: 575.98px) {
+    .site-content {
+        padding-inline: 1rem;
+    }
+
+    .post-navigation {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .post-navigation a {
+        max-width: 100%;
+    }
+
+    .post-navigation .next {
+        margin-left: 0;
+        text-align: left;
+    }
+}

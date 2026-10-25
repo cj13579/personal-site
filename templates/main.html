@@ -8,22 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>cjblake.net | $title$</title>
-    <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/site.css">
     <script defer src="https://umami.cjblake.net/script.js" data-website-id="fa958aa1-6a54-4263-a536-a6f44d86a6e6"></script>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">cjblake.net</a> | 
+            <a class="navbar-brand" href="/">cjblake.net</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -42,13 +37,11 @@
 
 
     <hr />
-    <div class="container">
+    <main class="container site-content">
         $body$
-    </div>
-    <div>
-        <footer class="footer">
-            &copy; 2026 Christopher Blake.
-        </footer>
-    </div>
+    </main>
+    <footer class="footer">
+        &copy; 2026 Christopher Blake.
+    </footer>
   </body>
 </html>
